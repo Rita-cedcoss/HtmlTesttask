@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="guessword.css">
+</head>
+<body>
+    <div id="outer">
+        <div id="top">
+            <img src="guessword.png">
+            <p id="guessResult"></p>
+        <div id="guessWord">
+           <p class="dot" id="0"><strong>_</strong></p>
+           <p class="dot" id="1"><strong>_</strong></p>
+           <p class="dot" id="2"><strong>_</strong></p>
+           <p class="dot" id="3"><strong>_</strong></p>
+           <p class="dot" id="4"><strong>_</strong></p>
+           <p class="dot" id="5"><strong>_</strong></p>
+        </div>
+
+      <div id="lower">
+           <p id="guessRemainingWord">You have 6 guesses remaining.</p>
+           <p id="guessAttemptsWord"></p>
+           <p id="typeOneLetter">Type one letter:</p>
+           <input type="text" id="inputGuess" maxlength="1"/><br>
+           <button onclick="guessword();" id="btn">Guess!</button>
+          <p id="guessExceed"></p>
+      </div>
+        </div>
+    </div>
+</body>
+<script src="guessword.js"></script>
+</html>
