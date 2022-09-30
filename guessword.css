@@ -1,0 +1,42 @@
+#outer
+{
+    height: auto;
+    width: 100%;
+    font-size: 20px;
+}
+#top{
+    height: 700px;
+    width: 60%;
+    background-color: #e0fff2eb;;
+    margin: auto;
+    text-align: center;
+}
+#guessWord{
+display: flex;
+justify-content: center;
+}
+.dot
+{
+    padding-left: 20px;
+}
+input{
+    height: 30px;
+    width: 40px;
+}
+button{
+    height: 40px;
+    width: 130px;
+    background-color: #ff2929;
+    color: white;
+    font-size: 20px;
+    border: none;
+    border-radius: 26px;
+    margin-top: 5%;
+}
+p{
+    padding-bottom: 20px;
+}
+#guessExceed
+{
+    color: green;
+}
